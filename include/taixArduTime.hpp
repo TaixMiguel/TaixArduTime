@@ -13,12 +13,16 @@ class TaixArduTime {
   const char* ntpServer = "pool.ntp.org";
 
   public:
+    TaixArduTime(int utc, bool horarioVerano);
     TaixArduTime();
+
     void updateTime();
 
   private:
     long  gmtOffset_sec;
     int   daylightOffset_sec;
+
+    void init(int utc, bool horarioVerano);
 };
 
 #endif

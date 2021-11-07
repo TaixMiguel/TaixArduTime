@@ -1,6 +1,6 @@
 {
     "name": "TaixArduTime",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Una librería para actualizar la hora del dispositivo",
     "keywords": "TaixMiguel, Time",
     "repository":
